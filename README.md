@@ -87,6 +87,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     File Explore -> C drive -> inetpub -> wwwroot -> osTicket -> include -> ostsampleconfig.php -> Rt click -> Rename
 
 19. Assgin permission to "ost-config.php"
-    
+    Rt click -> Properties -> Security -> Advanced -> Disable Inheritance -> Remave All -> Add -> Under "Enter the object name..." type "everyone" -> Check names -> Ok -> Full control -> Apply -> Ok
+
+20. Finsih setting up osTicket
+    osTicket browser -> Continue -> Enter Help Desk Name -> Enter email address -> Enter admin user -> Enter admin email (differnt from previouly entered email) -> Enter Username/password -> Save credintials to notepad
+
+21. Install Heidi SQL *Create a database specifically for osTicket*
+    osTicket Installation Files Folder -> Heidi SQL -> Launch/Finish
 
 
