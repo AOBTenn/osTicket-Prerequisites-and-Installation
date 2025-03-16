@@ -29,5 +29,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+1. Create Microsoft Azure Virtual Machine
+
+Create Resource Group -> Enter Vm name -> Select Region -> *NOTE* Size: Standard at least 2vcps,  8gib memory -> Enter Username and Password -> Image: Windows 10 Pro, version 22H2 -> Check
+ License box -> Next -> Next -> Review and Create
+
+2. Remote Desktop Login  to the Vm
+
+Get public Ip address -> Enter Username and Password
+
+3. Whith the Vm download
+
 
 
