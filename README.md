@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 1. Create Microsoft Azure Virtual Machine
    Create Resource Group -> Enter Vm name -> Select Region -> *NOTE* Size: Standard at least 2vcps,  8gib memory -> Enter Username and Password -> Image: Windows 10 Pro, version 22H2 -> Check
- License box -> Next -> Next -> Review and Create
+   License box -> Next -> Next -> Review and Create
 
 2. Remote Desktop Login  to the Vm
    Get public Ip address -> Enter Username and Password
@@ -39,7 +39,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 3. Within the Vm download "osTicket-installation-Files.zip" -> Unzip to desktop in new folder "osTicket Installation Files" -> Extract
 
 4. Enable IIS with CGI
-   Check for webserver by browsing 127.0.0.1 ->
+   Check for webserver by browsing 127.0.0.1 -> observe error webpage
    Install webserver -> Start -> Control Panel -> Programs -> Programs and Features -> Turn Windows Features on or off -> Check "Internet Information Services" -> Expand -> Check "CGI" -> Ok
 
 5. Rebrowse 127.0.0.1 and observe the default webpage for IIS should load
@@ -50,9 +50,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 7. Install Rewrite Moduale
    osTicket Installation Files Folder -> Double click -> Accept -> Finish
 
-8.  Create PHP directory on C drive
-   Open C drive file folder -> Create new folder name "PHP" -> osTicket Installation Files Folder -> Rt click -> Extract into C drive "PHP" folder
+8. Create PHP directory on C drive
+   Rt click File explorer Open C drive file folder -> Create new folder name "PHP" -> osTicket Installation Files Folder -> Rt click -> Broswe to C drive "PHP" folder -> Extract 
 
-9.
+9. Install VC_redist.x86.exe
+   osTicket Installation Files Folder -> Double click ->
 
 
