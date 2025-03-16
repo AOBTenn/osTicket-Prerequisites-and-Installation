@@ -54,6 +54,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
    Rt click File explorer Open C drive file folder -> Create new folder name "PHP" -> osTicket Installation Files Folder -> Rt click -> Broswe to C drive "PHP" folder -> Extract 
 
 9. Install VC_redist.x86.exe
-   osTicket Installation Files Folder -> Double click ->
+   osTicket Installation Files Folder -> Double click -> Yes
+
+10. Indstall MySQL5.5.62
+    osTicket Installation Files Folder -> Double click -> I agree -> Typical -> Install -> Check Launch -> Finish
+    
+    After Application Launched
+    Next -> Standard -> Next -> Under "Modify security Settings" type Unername/Password -> *Save to Notepad* -> Next -> Execute -> Finish
+
+11. Open IIS as Administrator
+    In search bar type "IIS", Rt click "IIS" -> Run as administrator
+
+12. Register PHP in IIS
+    Open PhP Manager -> Click "Register New PHP Version" -> Browse PHP folder in C drive -> double click "php.cgi" -> OK
+
+13. Reload IIS / Stop and Restart the server
+    Rt click "osTicket-vm" -> Stop -> Wait a few seconds -> Rt click "osTicket-vm" -> Start
+
+14. Install osTicket Application
+    osTicket Installation Files Folder -> osTicket v1.15.8 -> Rt click -> Extract -> Open ->  copy "Upload" folder -> browse to "c:\inetphp\wwroot" -> Paste -> Rename "osTicket" spelled extactly
+
+15. Reload IIS / Stop and Restart the server
+    Rt click "osTicket-vm" -> Stop -> Wait a few seconds -> Rt click "osTicket-vm" -> Start
+
+16. Browse to osTicket
+    "osTicket-vm" -> Sites -> Default Web Site -> osTicket -> Browse *80 -> The osTicket website should load
+    
 
 
