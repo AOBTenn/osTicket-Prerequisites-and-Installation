@@ -79,6 +79,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 16. Browse to osTicket
     "osTicket-vm" -> Sites -> Default Web Site -> osTicket -> Browse *80 -> The osTicket website should load
+
+17. Enable some features that are not orginally enabled at installation
+    In IIS -> Default website -> osTicket -> double click PHP manager -> Enable or disable eextensions -> "php_imp.dll, php_inti.dll, php_opcache.dll, Switch to enable -> Refresh osTicket browser
+
+18. Rename "c:\intetpub\wwwroot\osTicket\include\ostsampleconfig.php" to "c:\intetpub\wwwroot\osTicket\include\ost-config.php"
+    File Explore -> C drive -> inetpub -> wwwroot -> osTicket -> include -> ostsampleconfig.php -> Rt click -> Rename
+
+19. Assgin permission to "ost-config.php"
     
 
 
