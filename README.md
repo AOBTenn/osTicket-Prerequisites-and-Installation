@@ -1,5 +1,7 @@
-
 <h1>osTicket - Prerequisites and Installation</h1>
+<p align="center">
+<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+</p>
 
 <h2>Discription </h2>
 
