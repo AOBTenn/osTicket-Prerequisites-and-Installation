@@ -113,7 +113,8 @@ This tutorial outlines the prerequisites and installation of the free help desk 
     After Application Launched
     Next -> Standard -> Next -> Under "Modify security Settings" type Unername/Password -> *Save to Notepad* -> Next -> Execute -> Finish
 
-
+![image](https://github.com/user-attachments/assets/d41bd5fa-9b2c-4bfc-85a9-3861f41277a1)
+![image](https://github.com/user-attachments/assets/e9c0699a-8378-4227-a867-a7a78a067bf1)
 
 13. Open IIS as Administrator
     In search bar type "IIS", Rt click "IIS" -> Run as administrator
