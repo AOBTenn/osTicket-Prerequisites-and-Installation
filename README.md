@@ -47,7 +47,8 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 3. Login  to the osticket-Vm
    Get public Ip address -> Remote Desktop -> Enter Username/Password
 
-![image](https://github.com/user-attachments/assets/ab816d3e-b197-421a-92d4-00c41bdaad49)
+![image](https://github.com/user-attachments/assets/7cfc5936-8abf-407e-b10b-f896f5d0c434)
+
 ![image](https://github.com/user-attachments/assets/6c574e4c-84d4-4f5a-8211-14696f62d759)
 
 
