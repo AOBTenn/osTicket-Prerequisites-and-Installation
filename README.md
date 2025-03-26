@@ -143,28 +143,31 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 18. Reload IIS / Stop and Restart the server
     Rt click "osTicket-vm" -> Stop -> Wait a few seconds -> Rt click "osTicket-vm" -> Start
 
-19. Browse to osTicket
+![image](https://github.com/user-attachments/assets/ebfd0dc7-6152-471e-b738-4ce2e6073b29)
+![image](https://github.com/user-attachments/assets/c78123b8-ff85-47bc-a97a-4575f7c39f1a)
+
+20. Browse to osTicket
     "osTicket-vm" -> Sites -> Default Web Site -> osTicket -> Browse *80 -> The osTicket website should load
 
-20. Enable some features that are not orginally enabled at installation
+21. Enable some features that are not orginally enabled at installation
     In IIS -> Default website -> osTicket -> double click PHP manager -> Enable or disable eextensions -> "php_imp.dll, php_inti.dll, php_opcache.dll, Switch to enable -> Refresh osTicket browser
 
-21. Rename "c:\intetpub\wwwroot\osTicket\include\ostsampleconfig.php" to "c:\intetpub\wwwroot\osTicket\include\ost-config.php"
+22. Rename "c:\intetpub\wwwroot\osTicket\include\ostsampleconfig.php" to "c:\intetpub\wwwroot\osTicket\include\ost-config.php"
     File Explore -> C drive -> inetpub -> wwwroot -> osTicket -> include -> ostsampleconfig.php -> Rt click -> Rename
 
-22. Assgin permission to "ost-config.php"
+23. Assgin permission to "ost-config.php"
     Rt click -> Properties -> Security -> Advanced -> Disable Inheritance -> Remave All -> Add -> Under "Enter the object name..." type "everyone" -> Check names -> Ok -> Full control -> Apply -> Ok
 
-23. Finsih setting up osTicket
+24. Finsih setting up osTicket
     osTicket browser -> Continue -> Enter Help Desk Name -> Enter email address -> Enter admin user -> Enter admin email (differnt from previouly entered email) -> Enter Username/password -> Save credintials to notepad
 
-24. Install Heidi SQL *Create a database specifically for osTicket*
+25. Install Heidi SQL *Create a database specifically for osTicket*
     osTicket Installation Files Folder -> Heidi SQL -> I accept... -> Next four times -> Install -> *Make sure Launch is checked* -> Finish ->
 
     After Application Launched
     Skip -> New  -> Enter User/Password (same as setting up MySQL) -> Open/Connect to Database -> Rt "Unnamed" -> Create New -> Database -> Type "osTicket" spelled extactly in "Name" -> Ok
 
-25. Finsih setting up osTicket "Database settings"
+26. Finsih setting up osTicket "Database settings"
     osTicket browser ->  Under "MySQL Database" type "osTicket" (database created in previous step) ->  Under "MySQL Username" enter username (same as setting up MySQL) ->  Under "MySQL Password" enter password (same as setting up MySQL) -> Install Now
 
 Congratulations. If you followed these steps exactly you have successfully installed the free ticketing software osTicket. Now you can continue to practicing creating and solving simulated real  world Help desK tickets.
