@@ -55,7 +55,8 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 
 4. Within the Vm download "osTicket-installation-Files.zip" -> Unzip to desktop in new folder "osTicket Installation Files" -> Extract
 
-![image](https://github.com/user-attachments/assets/5c76893c-ad5a-4084-966a-66c7fde57ae8)
+![image](https://github.com/user-attachments/assets/41c20a8d-68d0-4e3a-a47c-465ce2c7efa3)
+
 ![image](https://github.com/user-attachments/assets/2b9b48c0-1628-4f82-a3e0-cf4791e331e7)
 
 
