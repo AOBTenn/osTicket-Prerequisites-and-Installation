@@ -74,16 +74,23 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 ![image](https://github.com/user-attachments/assets/90784a04-9528-4d19-a171-c07a1ccfaad2)
 ![image](https://github.com/user-attachments/assets/712f041a-5986-4d88-9bec-20c2abfa6d90)
 
-
-
-
 7. Rebrowse 127.0.0.1 and observe the default webpage for IIS should load
+
+![image](https://github.com/user-attachments/assets/8d5ecd8d-88db-4a4e-8d15-53b6a050e509)
 
 8. Install PHP Manager
    osTicket Installation Files Folder -> Double click -> Next -> I Agree -> Next -> Agree to Everything
 
+![image](https://github.com/user-attachments/assets/bae74334-e962-46e5-b3f7-eaf0764d04f4)
+![image](https://github.com/user-attachments/assets/8d7f46f6-9070-4c66-9e75-e375dba156ac)
+
+
 9. Install Rewrite Moduale
    osTicket Installation Files Folder -> Double click -> Accept -> Finish
+
+![image](https://github.com/user-attachments/assets/1ae9065b-ec0c-4594-a79e-ac671b0a9c4a)
+![image](https://github.com/user-attachments/assets/8b3a1f5c-6427-4bc4-9167-60f164096a3e)
+
 
 10. Create PHP directory on C drive
    Rt click File explorer Open C drive file folder -> Create new folder name "PHP" -> osTicket Installation Files Folder -> Rt click -> Broswe to C drive "PHP" folder -> Extract 
