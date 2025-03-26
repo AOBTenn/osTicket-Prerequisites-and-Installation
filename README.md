@@ -62,65 +62,70 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 
 5. Enable IIS with CGI
    Check for webserver by browsing 127.0.0.1 -> observe error webpage
+   
+![image](https://github.com/user-attachments/assets/242180c7-4e08-4557-87a5-a6e4ffcbf56c)
+![image](https://github.com/user-attachments/assets/75955188-d47a-4df2-a7a7-1fa7f10efbd7)
+
+
    Install webserver -> Start -> Control Panel -> Programs -> Programs and Features -> Turn Windows Features on or off -> Check "Internet Information Services" -> Expand -> Check "CGI" -> Ok
 
-6. Rebrowse 127.0.0.1 and observe the default webpage for IIS should load
+7. Rebrowse 127.0.0.1 and observe the default webpage for IIS should load
 
-7. Install PHP Manager
+8. Install PHP Manager
    osTicket Installation Files Folder -> Double click -> Next -> I Agree -> Next -> Agree to Everything
 
-8. Install Rewrite Moduale
+9. Install Rewrite Moduale
    osTicket Installation Files Folder -> Double click -> Accept -> Finish
 
-9. Create PHP directory on C drive
+10. Create PHP directory on C drive
    Rt click File explorer Open C drive file folder -> Create new folder name "PHP" -> osTicket Installation Files Folder -> Rt click -> Broswe to C drive "PHP" folder -> Extract 
 
-10. Install VC_redist.x86.exe
+11. Install VC_redist.x86.exe
    osTicket Installation Files Folder -> Double click -> Yes
 
-11. Indstall MySQL5.5.62
+12. Indstall MySQL5.5.62
     osTicket Installation Files Folder -> Double click -> I agree -> Typical -> Install -> Check Launch -> Finish
     
     After Application Launched
     Next -> Standard -> Next -> Under "Modify security Settings" type Unername/Password -> *Save to Notepad* -> Next -> Execute -> Finish
 
-12. Open IIS as Administrator
+13. Open IIS as Administrator
     In search bar type "IIS", Rt click "IIS" -> Run as administrator
 
-13. Register PHP in IIS
+14. Register PHP in IIS
     Open PhP Manager -> Click "Register New PHP Version" -> Browse PHP folder in C drive -> double click "php.cgi" -> OK
 
-14. Reload IIS / Stop and Restart the server
+15. Reload IIS / Stop and Restart the server
     Rt click "osTicket-vm" -> Stop -> Wait a few seconds -> Rt click "osTicket-vm" -> Start
 
-15. Install osTicket Application
+16. Install osTicket Application
     osTicket Installation Files Folder -> osTicket v1.15.8 -> Rt click -> Extract -> Open ->  copy "Upload" folder -> browse to "c:\inetphp\wwroot" -> Paste -> Rename "osTicket" spelled extactly
 
-16. Reload IIS / Stop and Restart the server
+17. Reload IIS / Stop and Restart the server
     Rt click "osTicket-vm" -> Stop -> Wait a few seconds -> Rt click "osTicket-vm" -> Start
 
-17. Browse to osTicket
+18. Browse to osTicket
     "osTicket-vm" -> Sites -> Default Web Site -> osTicket -> Browse *80 -> The osTicket website should load
 
-18. Enable some features that are not orginally enabled at installation
+19. Enable some features that are not orginally enabled at installation
     In IIS -> Default website -> osTicket -> double click PHP manager -> Enable or disable eextensions -> "php_imp.dll, php_inti.dll, php_opcache.dll, Switch to enable -> Refresh osTicket browser
 
-19. Rename "c:\intetpub\wwwroot\osTicket\include\ostsampleconfig.php" to "c:\intetpub\wwwroot\osTicket\include\ost-config.php"
+20. Rename "c:\intetpub\wwwroot\osTicket\include\ostsampleconfig.php" to "c:\intetpub\wwwroot\osTicket\include\ost-config.php"
     File Explore -> C drive -> inetpub -> wwwroot -> osTicket -> include -> ostsampleconfig.php -> Rt click -> Rename
 
-20. Assgin permission to "ost-config.php"
+21. Assgin permission to "ost-config.php"
     Rt click -> Properties -> Security -> Advanced -> Disable Inheritance -> Remave All -> Add -> Under "Enter the object name..." type "everyone" -> Check names -> Ok -> Full control -> Apply -> Ok
 
-21. Finsih setting up osTicket
+22. Finsih setting up osTicket
     osTicket browser -> Continue -> Enter Help Desk Name -> Enter email address -> Enter admin user -> Enter admin email (differnt from previouly entered email) -> Enter Username/password -> Save credintials to notepad
 
-22. Install Heidi SQL *Create a database specifically for osTicket*
+23. Install Heidi SQL *Create a database specifically for osTicket*
     osTicket Installation Files Folder -> Heidi SQL -> I accept... -> Next four times -> Install -> *Make sure Launch is checked* -> Finish ->
 
     After Application Launched
     Skip -> New  -> Enter User/Password (same as setting up MySQL) -> Open/Connect to Database -> Rt "Unnamed" -> Create New -> Database -> Type "osTicket" spelled extactly in "Name" -> Ok
 
-23. Finsih setting up osTicket "Database settings"
+24. Finsih setting up osTicket "Database settings"
     osTicket browser ->  Under "MySQL Database" type "osTicket" (database created in previous step) ->  Under "MySQL Username" enter username (same as setting up MySQL) ->  Under "MySQL Password" enter password (same as setting up MySQL) -> Install Now
 
 Congratulations. If you followed these steps exactly you have successfully installed the free ticketing software osTicket. Now you can continue to practicing creating and solving simulated real  world Help desK tickets.
