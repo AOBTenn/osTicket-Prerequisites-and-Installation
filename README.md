@@ -69,6 +69,14 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 
    Install webserver -> Start -> Control Panel -> Programs -> Programs and Features -> Turn Windows Features on or off -> Check "Internet Information Services" -> Expand -> Check "CGI" -> Ok
 
+![image](https://github.com/user-attachments/assets/9682ce29-751a-4c25-92c4-07a44768fb87)
+![image](https://github.com/user-attachments/assets/dd1313e4-8ba1-4d7c-b7b0-ff18146fb9ae)
+![image](https://github.com/user-attachments/assets/90784a04-9528-4d19-a171-c07a1ccfaad2)
+![image](https://github.com/user-attachments/assets/712f041a-5986-4d88-9bec-20c2abfa6d90)
+
+
+
+
 7. Rebrowse 127.0.0.1 and observe the default webpage for IIS should load
 
 8. Install PHP Manager
