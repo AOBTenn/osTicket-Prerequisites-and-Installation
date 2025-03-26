@@ -42,8 +42,6 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 ![image](https://github.com/user-attachments/assets/a1707ac4-9016-4e69-a393-fa0f151759e4)
 ![image](https://github.com/user-attachments/assets/f97859cb-d393-4ea9-83f8-27d4aa721b11)
 
-
-
 3. Login  to the osticket-Vm
    Get public Ip address -> Remote Desktop -> Enter Username/Password
 
@@ -51,21 +49,17 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 
 ![image](https://github.com/user-attachments/assets/6c574e4c-84d4-4f5a-8211-14696f62d759)
 
-
-
 4. Within the Vm download "osTicket-installation-Files.zip" -> Unzip to desktop in new folder "osTicket Installation Files" -> Extract
 
 ![image](https://github.com/user-attachments/assets/41c20a8d-68d0-4e3a-a47c-465ce2c7efa3)
 
 ![image](https://github.com/user-attachments/assets/2b9b48c0-1628-4f82-a3e0-cf4791e331e7)
 
-
 5. Enable IIS with CGI
    Check for webserver by browsing 127.0.0.1 -> observe error webpage
    
 ![image](https://github.com/user-attachments/assets/242180c7-4e08-4557-87a5-a6e4ffcbf56c)
 ![image](https://github.com/user-attachments/assets/75955188-d47a-4df2-a7a7-1fa7f10efbd7)
-
 
    Install webserver -> Start -> Control Panel -> Programs -> Programs and Features -> Turn Windows Features on or off -> Check "Internet Information Services" -> Expand -> Check "CGI" -> Ok
 
@@ -91,18 +85,35 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 ![image](https://github.com/user-attachments/assets/1ae9065b-ec0c-4594-a79e-ac671b0a9c4a)
 ![image](https://github.com/user-attachments/assets/8b3a1f5c-6427-4bc4-9167-60f164096a3e)
 
-
 10. Create PHP directory on C drive
-   Rt click File explorer Open C drive file folder -> Create new folder name "PHP" -> osTicket Installation Files Folder -> Rt click -> Broswe to C drive "PHP" folder -> Extract 
+   Rt click File explorer Open C drive file folder -> Create new folder name "PHP"
 
-11. Install VC_redist.x86.exe
+![image](https://github.com/user-attachments/assets/63e01625-8348-436e-ad78-f6e4cedcd095)
+
+11. Unzip PHP in osTicket Installation Files Folder into PHP on C drive
+    osTicket Installation Files Folder -> -> Rt click -> Broswe to C drive "PHP" folder -> Extract 
+
+![image](https://github.com/user-attachments/assets/7e2dbc54-5698-4095-ac2c-dcd4a55d9368)
+![image](https://github.com/user-attachments/assets/9d4361ec-36d4-41cc-9c10-93dfb6b08355)
+
+12. Install VC_redist.x86.exe
    osTicket Installation Files Folder -> Double click -> Yes
 
-12. Indstall MySQL5.5.62
+![image](https://github.com/user-attachments/assets/bb95ae4b-b8a7-4a3c-a9b9-187a6b7185a0)
+![image](https://github.com/user-attachments/assets/492d0324-89ec-4a2d-9865-8f2958cfa159)
+
+13. Indstall MySQL5.5.62
     osTicket Installation Files Folder -> Double click -> I agree -> Typical -> Install -> Check Launch -> Finish
-    
+
+![image](https://github.com/user-attachments/assets/3741db6d-85c4-40d0-93cf-74d7f9015a86)
+![image](https://github.com/user-attachments/assets/2a09d0e1-8342-4ad6-927b-59e3260d3dba)
+![image](https://github.com/user-attachments/assets/f5db121f-645a-47bc-82ef-c8894d184dde)
+![image](https://github.com/user-attachments/assets/dcbe9b1c-8057-4af9-bd3d-7352b313a38a)
+
     After Application Launched
     Next -> Standard -> Next -> Under "Modify security Settings" type Unername/Password -> *Save to Notepad* -> Next -> Execute -> Finish
+
+
 
 13. Open IIS as Administrator
     In search bar type "IIS", Rt click "IIS" -> Run as administrator
