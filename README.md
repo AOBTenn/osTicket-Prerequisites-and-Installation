@@ -36,8 +36,8 @@ This tutorial outlines the prerequisites and installation of the free help desk 
    Create Resource Group -> Enter Vm name -> Select Region -> *NOTE* Size: Standard at least 2vcps,  8gib memory -> Enter Username and Password -> Image: Windows 10 Pro, version 22H2 -> Check
    License box -> Next -> Next -> Review and Create
 
-2. Remote Desktop Login  to the Vm
-   Get public Ip address -> Enter Username and Password
+2. Login  to the osticket-Vm
+   Get public Ip address -> Remote Desktop -> Enter Username/Password
 
 3. Within the Vm download "osTicket-installation-Files.zip" -> Unzip to desktop in new folder "osTicket Installation Files" -> Extract
 
