@@ -168,8 +168,18 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 22. Rename "c:\intetpub\wwwroot\osTicket\include\ostsampleconfig.php" to "c:\intetpub\wwwroot\osTicket\include\ost-config.php"
     File Explore -> C drive -> inetpub -> wwwroot -> osTicket -> include -> ostsampleconfig.php -> Rt click -> Rename
 
+![image](https://github.com/user-attachments/assets/58fe374a-6773-4d73-a9f6-f2180091114e)
+![image](https://github.com/user-attachments/assets/71d93031-58c6-49cc-a025-61ceaa140523)
+
 23. Assgin permission to "ost-config.php"
-    Rt click -> Properties -> Security -> Advanced -> Disable Inheritance -> Remave All -> Add -> Under "Enter the object name..." type "everyone" -> Check names -> Ok -> Full control -> Apply -> Ok
+    Rt click ost-config.php -> Properties -> Security -> Advanced -> Disable Inheritance -> Remave All -> Add -> Under "Enter the object name..." type "everyone" -> Check names -> Ok -> Full control -> Apply -> Ok
+
+![image](https://github.com/user-attachments/assets/da1640d1-e8e5-4ad0-889b-ffaac0aea470)
+![image](https://github.com/user-attachments/assets/05cee5b5-49f4-42bf-8f04-8545bca8c11f)
+![image](https://github.com/user-attachments/assets/ecdcf1c9-33e1-4385-b988-4b07f48da13a)
+![image](https://github.com/user-attachments/assets/c9b9a70f-3796-4860-8cf8-bce39620a444)
+![image](https://github.com/user-attachments/assets/4ed1c165-587a-4baf-a788-a1e25657fdf7)
+![image](https://github.com/user-attachments/assets/4db623b6-175f-4ba3-8c68-a3bb4eef91ed)
 
 24. Finsih setting up osTicket
     osTicket browser -> Continue -> Enter Help Desk Name -> Enter email address -> Enter admin user -> Enter admin email (differnt from previouly entered email) -> Enter Username/password -> Save credintials to notepad
