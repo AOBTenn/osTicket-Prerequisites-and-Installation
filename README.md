@@ -138,7 +138,13 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 16. Install osTicket Application
     osTicket Installation Files Folder -> osTicket v1.15.8 -> Rt click -> Extract ->
 
+![image](https://github.com/user-attachments/assets/417d6940-7d61-4f5c-88b7-41d48d3ba9fd)
+![image](https://github.com/user-attachments/assets/e66b622c-aeaf-4b80-b00f-af1285f64473)
+
     Open ->  copy "Upload" folder -> browse to "c:\inetphp\wwroot" -> Paste -> Rename "osTicket" spelled extactly
+
+![image](https://github.com/user-attachments/assets/237610cf-4bb4-4f42-a86d-6a55cb941467)
+![image](https://github.com/user-attachments/assets/4194cb17-48f4-49fa-a53c-8d0cde021e94)
 
 18. Reload IIS / Stop and Restart the server
     Rt click "osTicket-vm" -> Stop -> Wait a few seconds -> Rt click "osTicket-vm" -> Start
@@ -149,8 +155,14 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 20. Browse to osTicket
     "osTicket-vm" -> Sites -> Default Web Site -> osTicket -> Browse *80 -> The osTicket website should load
 
+![image](https://github.com/user-attachments/assets/989c6a9d-a4b0-4628-b6a5-7c322d67575b)
+![image](https://github.com/user-attachments/assets/99c7b951-7fa8-47e4-85ed-e07744a5a3f1)
+
 21. Enable some features that are not orginally enabled at installation
-    In IIS -> Default website -> osTicket -> double click PHP manager -> Enable or disable eextensions -> "php_imp.dll, php_inti.dll, php_opcache.dll, Switch to enable -> Refresh osTicket browser
+    In IIS -> Default website -> osTicket -> double click PHP manager -> Enable or disable eextensions -> "php_imap.dll, php_inti.dll, php_opcache.dll, Switch to enable -> Refresh osTicket browser
+
+![image](https://github.com/user-attachments/assets/183f3891-a20d-4322-b7d6-3a2693702677)
+
 
 22. Rename "c:\intetpub\wwwroot\osTicket\include\ostsampleconfig.php" to "c:\intetpub\wwwroot\osTicket\include\ost-config.php"
     File Explore -> C drive -> inetpub -> wwwroot -> osTicket -> include -> ostsampleconfig.php -> Rt click -> Rename
