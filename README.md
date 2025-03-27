@@ -161,8 +161,9 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 21. Enable some features that are not orginally enabled at installation
     In IIS -> Default website -> osTicket -> double click PHP manager -> Enable or disable eextensions -> "php_imap.dll, php_inti.dll, php_opcache.dll, Switch to enable -> Refresh osTicket browser
 
+![image](https://github.com/user-attachments/assets/141c1f0e-3c77-4d41-906e-c3e577ba6dce)
+![image](https://github.com/user-attachments/assets/c9b9f1d4-9c28-4017-b3f6-5df81ce68397)
 ![image](https://github.com/user-attachments/assets/183f3891-a20d-4322-b7d6-3a2693702677)
-
 
 22. Rename "c:\intetpub\wwwroot\osTicket\include\ostsampleconfig.php" to "c:\intetpub\wwwroot\osTicket\include\ost-config.php"
     File Explore -> C drive -> inetpub -> wwwroot -> osTicket -> include -> ostsampleconfig.php -> Rt click -> Rename
