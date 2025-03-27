@@ -184,6 +184,8 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 24. Finsih setting up osTicket
     osTicket browser -> Continue -> Enter Help Desk Name -> Enter email address -> Enter admin user -> Enter admin email (differnt from previouly entered email) -> Enter Username/password -> Save credintials to notepad
 
+![image](https://github.com/user-attachments/assets/5b50902d-9034-4a1b-a6d2-5571eef35f67)
+
 25. Install Heidi SQL *Create a database specifically for osTicket*
     osTicket Installation Files Folder -> Heidi SQL -> I accept... -> Next four times -> Install -> *Make sure Launch is checked* -> Finish ->
 
@@ -192,5 +194,7 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 
 26. Finsih setting up osTicket "Database settings"
     osTicket browser ->  Under "MySQL Database" type "osTicket" (database created in previous step) ->  Under "MySQL Username" enter username (same as setting up MySQL) ->  Under "MySQL Password" enter password (same as setting up MySQL) -> Install Now
+
+![image](https://github.com/user-attachments/assets/912314f6-5dd0-47b5-b915-38e9a0689100)
 
 Congratulations. If you followed these steps exactly you have successfully installed the free ticketing software osTicket. Now you can continue to practicing creating and solving simulated real  world Help desK tickets.
