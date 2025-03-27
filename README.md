@@ -10,22 +10,51 @@ This tutorial outlines the prerequisites necessary and installation procedure fo
 <h2>Environments and Technologies Used</h2>
 
 Microsoft Azure (Virtual Machines/Computer)
+ <p> 
+</p>
+
 Remote Desktop
+ <p> 
+</p>
+
 Internet Information Services (IIS)
+ <p> 
+</p>
 
 <h2>Operating Systems Used </h2>
 
-Windows 10</b> (21H2)
+-Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
 
 Azure Virtual Machine
+ <p> 
+</p>
+
 Internet Information Services (IIS)
+ <p> 
+</p>
+
 PHP Manager
+ <p> 
+</p>
+
 Rewrite Module
+ <p> 
+</p>
+
 VC Redist
+ <p> 
+</p>
+
 MySQL
+ <p> 
+</p>
+
 Heidi SQL
+ <p> 
+</p>
+
 osTicket v1.15.8
  <p> 
 </p>
