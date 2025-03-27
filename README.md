@@ -189,8 +189,18 @@ This tutorial outlines the prerequisites and installation of the free help desk 
 25. Install Heidi SQL *Create a database specifically for osTicket*
     osTicket Installation Files Folder -> Heidi SQL -> I accept... -> Next four times -> Install -> *Make sure Launch is checked* -> Finish ->
 
-    After Application Launched
+![image](https://github.com/user-attachments/assets/57f36afc-4fd4-4f51-aedd-7fa72a352202)
+![image](https://github.com/user-attachments/assets/9c86b182-e29c-4af2-a9e7-97d8682c86ad)
+
+After Application Launched
     Skip -> New  -> Enter User/Password (same as setting up MySQL) -> Open/Connect to Database -> Rt "Unnamed" -> Create New -> Database -> Type "osTicket" spelled extactly in "Name" -> Ok
+
+![image](https://github.com/user-attachments/assets/eefda6e7-3e27-4d41-bfae-c48c83cc633b)
+![image](https://github.com/user-attachments/assets/0c652fe1-4848-4448-bd6a-88e6fa707831)
+![image](https://github.com/user-attachments/assets/a7006b52-8698-4ec5-8c4b-b93ed3128a92)
+![image](https://github.com/user-attachments/assets/67d4b267-fa9c-434d-a90c-17185d378fa9)
+![image](https://github.com/user-attachments/assets/c4e2927b-767f-4f48-bf5d-afbb479b6e34)
+![image](https://github.com/user-attachments/assets/757b72a6-4989-4daf-869c-34d9df44b2cc)
 
 26. Finsih setting up osTicket "Database settings"
     osTicket browser ->  Under "MySQL Database" type "osTicket" (database created in previous step) ->  Under "MySQL Username" enter username (same as setting up MySQL) ->  Under "MySQL Password" enter password (same as setting up MySQL) -> Install Now
