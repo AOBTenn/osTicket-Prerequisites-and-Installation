@@ -206,5 +206,6 @@ After Application Launched
     osTicket browser ->  Under "MySQL Database" type "osTicket" (database created in previous step) ->  Under "MySQL Username" enter username (same as setting up MySQL) ->  Under "MySQL Password" enter password (same as setting up MySQL) -> Install Now
 
 ![image](https://github.com/user-attachments/assets/912314f6-5dd0-47b5-b915-38e9a0689100)
+![image](https://github.com/user-attachments/assets/03d4f357-a8e3-407d-8d17-8e5c8ec043a5)
 
-Congratulations. If you followed these steps exactly you have successfully installed the free ticketing software osTicket. Now you can continue to practicing creating and solving simulated real  world Help desK tickets.
+Congratulations. If you followed these steps exactly you have successfully installed the free ticketing software osTicket. Now you can continue to the next lab for practice creating and solving simulated real world Help desK tickets.
