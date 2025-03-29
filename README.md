@@ -68,7 +68,7 @@ Link to downloads: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6Ezd
 </p>
 
 Create Resource Group -> Enter Vm name -> Select Region -> *NOTE* Size: Standard at least 2vcps,  8gib memory -> Enter Username and Password -> Image: Windows 10 Pro, version 22H2 -> Check License box -> Next -> Next -> Review and Create
-    <p> 
+ <p> 
 </p>
 
 ![image](https://github.com/user-attachments/assets/9cb237c3-6697-484c-9e0f-ee614a364e0d)
